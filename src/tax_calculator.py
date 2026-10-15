@@ -1,7 +1,7 @@
 def calculate_tax(price, international=False):
     tax_rate = 0.10
     if international:
-        tax_rate = 0.05
+        tax_rate = 0.15
     return price * tax_rate
 
 
